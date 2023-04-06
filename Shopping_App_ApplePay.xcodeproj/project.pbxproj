@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA4B566729DF76D600BE060E /* Shopping_App_ApplePayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B566629DF76D600BE060E /* Shopping_App_ApplePayApp.swift */; };
+		FA4B566929DF76D600BE060E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B566829DF76D600BE060E /* ContentView.swift */; };
+		FA4B566B29DF76D800BE060E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA4B566A29DF76D800BE060E /* Assets.xcassets */; };
+		FA4B566E29DF76D800BE060E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA4B566D29DF76D800BE060E /* Preview Assets.xcassets */; };
+		FA4B567029DF76D800BE060E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B566F29DF76D800BE060E /* Persistence.swift */; };
+		FA4B567329DF76D800BE060E /* Shopping_App_ApplePay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA4B567129DF76D800BE060E /* Shopping_App_ApplePay.xcdatamodeld */; };
+		FA4B567D29DF76D900BE060E /* Shopping_App_ApplePayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B567C29DF76D900BE060E /* Shopping_App_ApplePayTests.swift */; };
+		FA4B568729DF76D900BE060E /* Shopping_App_ApplePayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B568629DF76D900BE060E /* Shopping_App_ApplePayUITests.swift */; };
+		FA4B568929DF76D900BE060E /* Shopping_App_ApplePayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B568829DF76D900BE060E /* Shopping_App_ApplePayUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA4B567929DF76D900BE060E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA4B565B29DF76D600BE060E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA4B566229DF76D600BE060E;
+			remoteInfo = Shopping_App_ApplePay;
+		};
+		FA4B568329DF76D900BE060E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA4B565B29DF76D600BE060E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA4B566229DF76D600BE060E;
+			remoteInfo = Shopping_App_ApplePay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA4B566329DF76D600BE060E /* Shopping_App_ApplePay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shopping_App_ApplePay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4B566629DF76D600BE060E /* Shopping_App_ApplePayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shopping_App_ApplePayApp.swift; sourceTree = "<group>"; };
+		FA4B566829DF76D600BE060E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA4B566A29DF76D800BE060E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA4B566D29DF76D800BE060E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA4B566F29DF76D800BE060E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		FA4B567229DF76D800BE060E /* Shopping_App_ApplePay.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shopping_App_ApplePay.xcdatamodel; sourceTree = "<group>"; };
+		FA4B567829DF76D900BE060E /* Shopping_App_ApplePayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Shopping_App_ApplePayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4B567C29DF76D900BE060E /* Shopping_App_ApplePayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shopping_App_ApplePayTests.swift; sourceTree = "<group>"; };
+		FA4B568229DF76D900BE060E /* Shopping_App_ApplePayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Shopping_App_ApplePayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4B568629DF76D900BE060E /* Shopping_App_ApplePayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shopping_App_ApplePayUITests.swift; sourceTree = "<group>"; };
+		FA4B568829DF76D900BE060E /* Shopping_App_ApplePayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shopping_App_ApplePayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA4B566029DF76D600BE060E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4B567529DF76D800BE060E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4B567F29DF76D900BE060E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA4B565A29DF76D600BE060E = {
+			isa = PBXGroup;
+			children = (
+				FA4B566529DF76D600BE060E /* Shopping_App_ApplePay */,
+				FA4B567B29DF76D900BE060E /* Shopping_App_ApplePayTests */,
+				FA4B568529DF76D900BE060E /* Shopping_App_ApplePayUITests */,
+				FA4B566429DF76D600BE060E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA4B566429DF76D600BE060E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA4B566329DF76D600BE060E /* Shopping_App_ApplePay.app */,
+				FA4B567829DF76D900BE060E /* Shopping_App_ApplePayTests.xctest */,
+				FA4B568229DF76D900BE060E /* Shopping_App_ApplePayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA4B566529DF76D600BE060E /* Shopping_App_ApplePay */ = {
+			isa = PBXGroup;
+			children = (
+				FA4B566629DF76D600BE060E /* Shopping_App_ApplePayApp.swift */,
+				FA4B566829DF76D600BE060E /* ContentView.swift */,
+				FA4B566A29DF76D800BE060E /* Assets.xcassets */,
+				FA4B566F29DF76D800BE060E /* Persistence.swift */,
+				FA4B567129DF76D800BE060E /* Shopping_App_ApplePay.xcdatamodeld */,
+				FA4B566C29DF76D800BE060E /* Preview Content */,
+			);
+			path = Shopping_App_ApplePay;
+			sourceTree = "<group>";
+		};
+		FA4B566C29DF76D800BE060E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA4B566D29DF76D800BE060E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA4B567B29DF76D900BE060E /* Shopping_App_ApplePayTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA4B567C29DF76D900BE060E /* Shopping_App_ApplePayTests.swift */,
+			);
+			path = Shopping_App_ApplePayTests;
+			sourceTree = "<group>";
+		};
+		FA4B568529DF76D900BE060E /* Shopping_App_ApplePayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA4B568629DF76D900BE060E /* Shopping_App_ApplePayUITests.swift */,
+				FA4B568829DF76D900BE060E /* Shopping_App_ApplePayUITestsLaunchTests.swift */,
+			);
+			path = Shopping_App_ApplePayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA4B566229DF76D600BE060E /* Shopping_App_ApplePay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA4B568C29DF76D900BE060E /* Build configuration list for PBXNativeTarget "Shopping_App_ApplePay" */;
+			buildPhases = (
+				FA4B565F29DF76D600BE060E /* Sources */,
+				FA4B566029DF76D600BE060E /* Frameworks */,
+				FA4B566129DF76D600BE060E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shopping_App_ApplePay;
+			productName = Shopping_App_ApplePay;
+			productReference = FA4B566329DF76D600BE060E /* Shopping_App_ApplePay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA4B567729DF76D800BE060E /* Shopping_App_ApplePayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA4B568F29DF76D900BE060E /* Build configuration list for PBXNativeTarget "Shopping_App_ApplePayTests" */;
+			buildPhases = (
+				FA4B567429DF76D800BE060E /* Sources */,
+				FA4B567529DF76D800BE060E /* Frameworks */,
+				FA4B567629DF76D800BE060E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA4B567A29DF76D900BE060E /* PBXTargetDependency */,
+			);
+			name = Shopping_App_ApplePayTests;
+			productName = Shopping_App_ApplePayTests;
+			productReference = FA4B567829DF76D900BE060E /* Shopping_App_ApplePayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA4B568129DF76D900BE060E /* Shopping_App_ApplePayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA4B569229DF76D900BE060E /* Build configuration list for PBXNativeTarget "Shopping_App_ApplePayUITests" */;
+			buildPhases = (
+				FA4B567E29DF76D900BE060E /* Sources */,
+				FA4B567F29DF76D900BE060E /* Frameworks */,
+				FA4B568029DF76D900BE060E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA4B568429DF76D900BE060E /* PBXTargetDependency */,
+			);
+			name = Shopping_App_ApplePayUITests;
+			productName = Shopping_App_ApplePayUITests;
+			productReference = FA4B568229DF76D900BE060E /* Shopping_App_ApplePayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA4B565B29DF76D600BE060E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					FA4B566229DF76D600BE060E = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					FA4B567729DF76D800BE060E = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = FA4B566229DF76D600BE060E;
+					};
+					FA4B568129DF76D900BE060E = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = FA4B566229DF76D600BE060E;
+					};
+				};
+			};
+			buildConfigurationList = FA4B565E29DF76D600BE060E /* Build configuration list for PBXProject "Shopping_App_ApplePay" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA4B565A29DF76D600BE060E;
+			productRefGroup = FA4B566429DF76D600BE060E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA4B566229DF76D600BE060E /* Shopping_App_ApplePay */,
+				FA4B567729DF76D800BE060E /* Shopping_App_ApplePayTests */,
+				FA4B568129DF76D900BE060E /* Shopping_App_ApplePayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA4B566129DF76D600BE060E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4B566E29DF76D800BE060E /* Preview Assets.xcassets in Resources */,
+				FA4B566B29DF76D800BE060E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4B567629DF76D800BE060E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4B568029DF76D900BE060E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA4B565F29DF76D600BE060E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4B567029DF76D800BE060E /* Persistence.swift in Sources */,
+				FA4B567329DF76D800BE060E /* Shopping_App_ApplePay.xcdatamodeld in Sources */,
+				FA4B566929DF76D600BE060E /* ContentView.swift in Sources */,
+				FA4B566729DF76D600BE060E /* Shopping_App_ApplePayApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4B567429DF76D800BE060E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4B567D29DF76D900BE060E /* Shopping_App_ApplePayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4B567E29DF76D900BE060E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4B568929DF76D900BE060E /* Shopping_App_ApplePayUITestsLaunchTests.swift in Sources */,
+				FA4B568729DF76D900BE060E /* Shopping_App_ApplePayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA4B567A29DF76D900BE060E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA4B566229DF76D600BE060E /* Shopping_App_ApplePay */;
+			targetProxy = FA4B567929DF76D900BE060E /* PBXContainerItemProxy */;
+		};
+		FA4B568429DF76D900BE060E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA4B566229DF76D600BE060E /* Shopping_App_ApplePay */;
+			targetProxy = FA4B568329DF76D900BE060E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA4B568A29DF76D900BE060E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA4B568B29DF76D900BE060E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA4B568D29DF76D900BE060E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Shopping_App_ApplePay/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mustafakilinc.Shopping-App-ApplePay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA4B568E29DF76D900BE060E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Shopping_App_ApplePay/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mustafakilinc.Shopping-App-ApplePay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA4B569029DF76D900BE060E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mustafakilinc.Shopping-App-ApplePayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shopping_App_ApplePay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Shopping_App_ApplePay";
+			};
+			name = Debug;
+		};
+		FA4B569129DF76D900BE060E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mustafakilinc.Shopping-App-ApplePayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shopping_App_ApplePay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Shopping_App_ApplePay";
+			};
+			name = Release;
+		};
+		FA4B569329DF76D900BE060E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mustafakilinc.Shopping-App-ApplePayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shopping_App_ApplePay;
+			};
+			name = Debug;
+		};
+		FA4B569429DF76D900BE060E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mustafakilinc.Shopping-App-ApplePayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shopping_App_ApplePay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA4B565E29DF76D600BE060E /* Build configuration list for PBXProject "Shopping_App_ApplePay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA4B568A29DF76D900BE060E /* Debug */,
+				FA4B568B29DF76D900BE060E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA4B568C29DF76D900BE060E /* Build configuration list for PBXNativeTarget "Shopping_App_ApplePay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA4B568D29DF76D900BE060E /* Debug */,
+				FA4B568E29DF76D900BE060E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA4B568F29DF76D900BE060E /* Build configuration list for PBXNativeTarget "Shopping_App_ApplePayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA4B569029DF76D900BE060E /* Debug */,
+				FA4B569129DF76D900BE060E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA4B569229DF76D900BE060E /* Build configuration list for PBXNativeTarget "Shopping_App_ApplePayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA4B569329DF76D900BE060E /* Debug */,
+				FA4B569429DF76D900BE060E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA4B567129DF76D800BE060E /* Shopping_App_ApplePay.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA4B567229DF76D800BE060E /* Shopping_App_ApplePay.xcdatamodel */,
+			);
+			currentVersion = FA4B567229DF76D800BE060E /* Shopping_App_ApplePay.xcdatamodel */;
+			path = Shopping_App_ApplePay.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FA4B565B29DF76D600BE060E /* Project object */;
+}
