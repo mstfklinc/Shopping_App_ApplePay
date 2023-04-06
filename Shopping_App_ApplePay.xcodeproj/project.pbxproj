@@ -16,6 +16,12 @@
 		FA4B567D29DF76D900BE060E /* Shopping_App_ApplePayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B567C29DF76D900BE060E /* Shopping_App_ApplePayTests.swift */; };
 		FA4B568729DF76D900BE060E /* Shopping_App_ApplePayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B568629DF76D900BE060E /* Shopping_App_ApplePayUITests.swift */; };
 		FA4B568929DF76D900BE060E /* Shopping_App_ApplePayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B568829DF76D900BE060E /* Shopping_App_ApplePayUITestsLaunchTests.swift */; };
+		FA4B569929DF783500BE060E /* PaymentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B569829DF783500BE060E /* PaymentButton.swift */; };
+		FA4B569F29DF787B00BE060E /* CardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B569E29DF787B00BE060E /* CardButton.swift */; };
+		FA4B56A129DF788700BE060E /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B56A029DF788700BE060E /* ProductCard.swift */; };
+		FA4B56A329DF789800BE060E /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B56A229DF789800BE060E /* Product.swift */; };
+		FA4B56A529DF78AC00BE060E /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B56A429DF78AC00BE060E /* ProductRow.swift */; };
+		FA4B56A729DF78BE00BE060E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B56A629DF78BE00BE060E /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,12 @@
 		FA4B568229DF76D900BE060E /* Shopping_App_ApplePayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Shopping_App_ApplePayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA4B568629DF76D900BE060E /* Shopping_App_ApplePayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shopping_App_ApplePayUITests.swift; sourceTree = "<group>"; };
 		FA4B568829DF76D900BE060E /* Shopping_App_ApplePayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shopping_App_ApplePayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FA4B569829DF783500BE060E /* PaymentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentButton.swift; sourceTree = "<group>"; };
+		FA4B569E29DF787B00BE060E /* CardButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardButton.swift; sourceTree = "<group>"; };
+		FA4B56A029DF788700BE060E /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
+		FA4B56A229DF789800BE060E /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		FA4B56A429DF78AC00BE060E /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+		FA4B56A629DF78BE00BE060E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +110,10 @@
 		FA4B566529DF76D600BE060E /* Shopping_App_ApplePay */ = {
 			isa = PBXGroup;
 			children = (
+				FA4B56A829DF852100BE060E /* New Group */,
+				FA4B569729DF778A00BE060E /* Models */,
+				FA4B569629DF777F00BE060E /* Components */,
+				FA4B569529DF777400BE060E /* View */,
 				FA4B566629DF76D600BE060E /* Shopping_App_ApplePayApp.swift */,
 				FA4B566829DF76D600BE060E /* ContentView.swift */,
 				FA4B566A29DF76D800BE060E /* Assets.xcassets */,
@@ -131,6 +147,40 @@
 				FA4B568829DF76D900BE060E /* Shopping_App_ApplePayUITestsLaunchTests.swift */,
 			);
 			path = Shopping_App_ApplePayUITests;
+			sourceTree = "<group>";
+		};
+		FA4B569529DF777400BE060E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA4B56A629DF78BE00BE060E /* CardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA4B569629DF777F00BE060E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FA4B569829DF783500BE060E /* PaymentButton.swift */,
+				FA4B569E29DF787B00BE060E /* CardButton.swift */,
+				FA4B56A029DF788700BE060E /* ProductCard.swift */,
+				FA4B56A429DF78AC00BE060E /* ProductRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FA4B569729DF778A00BE060E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA4B56A229DF789800BE060E /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA4B56A829DF852100BE060E /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,8 +315,14 @@
 			files = (
 				FA4B567029DF76D800BE060E /* Persistence.swift in Sources */,
 				FA4B567329DF76D800BE060E /* Shopping_App_ApplePay.xcdatamodeld in Sources */,
+				FA4B56A329DF789800BE060E /* Product.swift in Sources */,
+				FA4B569F29DF787B00BE060E /* CardButton.swift in Sources */,
+				FA4B56A729DF78BE00BE060E /* CardView.swift in Sources */,
 				FA4B566929DF76D600BE060E /* ContentView.swift in Sources */,
 				FA4B566729DF76D600BE060E /* Shopping_App_ApplePayApp.swift in Sources */,
+				FA4B569929DF783500BE060E /* PaymentButton.swift in Sources */,
+				FA4B56A129DF788700BE060E /* ProductCard.swift in Sources */,
+				FA4B56A529DF78AC00BE060E /* ProductRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
