@@ -24,6 +24,7 @@
 		FA4B56AE29E09B7F00BE060E /* CardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B56AD29E09B7F00BE060E /* CardManager.swift */; };
 		FA4B56B029E09B8C00BE060E /* PaymentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B56AF29E09B8C00BE060E /* PaymentHandler.swift */; };
 		FA4B56B429E09CF800BE060E /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B56B329E09CF800BE060E /* Product.swift */; };
+		FAF7E7A029E0D09F008597D8 /* BottomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E79F29E0D09F008597D8 /* BottomNavBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		FA4B56AD29E09B7F00BE060E /* CardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardManager.swift; sourceTree = "<group>"; };
 		FA4B56AF29E09B8C00BE060E /* PaymentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentHandler.swift; sourceTree = "<group>"; };
 		FA4B56B329E09CF800BE060E /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		FAF7E79F29E0D09F008597D8 /* BottomNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +171,7 @@
 				FA4B569E29DF787B00BE060E /* CardButton.swift */,
 				FA4B56A029DF788700BE060E /* ProductCard.swift */,
 				FA4B56A429DF78AC00BE060E /* ProductRow.swift */,
+				FAF7E79F29E0D09F008597D8 /* BottomNavBar.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAF7E7A029E0D09F008597D8 /* BottomNavBar.swift in Sources */,
 				FA4B567029DF76D800BE060E /* Persistence.swift in Sources */,
 				FA4B567329DF76D800BE060E /* Shopping_App_ApplePay.xcdatamodeld in Sources */,
 				FA4B569F29DF787B00BE060E /* CardButton.swift in Sources */,

@@ -15,27 +15,35 @@ struct ContentView: View {
 
     var body: some View {
         
-        NavigationView{
-            ScrollView{
-                LazyVGrid(columns: columns, spacing: 20){
-                    ForEach(productList, id: \.id){ product in
-                        ProductCard(product: product)
+        ZStack {
+            NavigationView{
+                ScrollView{
+                    LazyVGrid(columns: columns, spacing: 20){
+                        ForEach(productList, id: \.id){ product in
+                            ProductCard(product: product)
+                                .environmentObject(cartManager)
+                        }
+                    }
+                    .padding()
+                }
+                .navigationTitle(Text("Sweaterd Shop"))
+                .toolbar{
+                    NavigationLink{
+                        CardView()
                             .environmentObject(cartManager)
+                    }label: {
+                        CardButton(numberOffProduct: cartManager.products.count)
                     }
                 }
-                .padding()
             }
-            .navigationTitle(Text("Sweaterd Shop"))
-            .toolbar{
-                NavigationLink{
-                    CardView()
-                        .environmentObject(cartManager)
-                }label: {
-                    CardButton(numberOffProduct: cartManager.products.count)
-                }
+            .navigationViewStyle(StackNavigationViewStyle())
+            
+            VStack{
+                Spacer()
+                BottomNavigationBar()
             }
         }
-        .navigationViewStyle(StackNavigationViewStyle())
+        
 
     }
 
