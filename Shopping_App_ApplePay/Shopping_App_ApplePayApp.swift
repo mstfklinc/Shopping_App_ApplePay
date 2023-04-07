@@ -9,12 +9,9 @@ import SwiftUI
 
 @main
 struct Shopping_App_ApplePayApp: App {
-    let persistenceController = PersistenceController.shared
-
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            ContentView(cartManager: CartManager())
         }
     }
 }

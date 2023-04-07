@@ -8,13 +8,41 @@
 import SwiftUI
 
 struct ProductRow: View {
+    @EnvironmentObject var cartManager: CartManager
+    var product: Product
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        HStack(spacing: 20){
+            Image(product.image)
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 50)
+                .cornerRadius(10)
+            
+            VStack(alignment: .leading, spacing: 20){
+                Text(product.name)
+                    .fontWeight(.bold)
+                Text("$ \(product.price).00")
+            }
+            
+            Spacer()
+            
+            Image(systemName: "trash")
+                .foregroundColor(.red)
+                .onTapGesture {
+                    cartManager.removeFromCard(product: product)
+                }
+            
+            
+        }.padding(.horizontal)
+            .frame(maxWidth: .infinity, alignment: .leading)
+        
     }
 }
 
 struct ProductRow_Previews: PreviewProvider {
     static var previews: some View {
-        ProductRow()
+        ProductRow(product: productList[2])
+            .environmentObject(CartManager())
     }
 }

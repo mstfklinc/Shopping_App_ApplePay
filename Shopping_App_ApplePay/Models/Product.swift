@@ -5,16 +5,20 @@
 //  Created by Mustafa Kılınç on 7.04.2023.
 //
 
-import SwiftUI
+import Foundation
 
-struct Product: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+struct Product: Identifiable {
+    var id = UUID()
+    var name: String
+    var image: String
+    var price: Int
 }
 
-struct Product_Previews: PreviewProvider {
-    static var previews: some View {
-        Product()
-    }
-}
+var productList = [Product(name: "Model 1", image: "sweater1", price: 54),
+                   Product(name: "Model 2", image: "sweater2", price: 64),
+                   Product(name: "Model 3", image: "sweater3", price: 81),
+                   Product(name: "Model 5", image: "sweater5", price: 63),
+                   Product(name: "Model 6", image: "sweater6", price: 89),
+                   Product(name: "Model 4", image: "sweater4", price: 35),
+                   Product(name: "Model 7", image: "sweater7", price: 105),
+                   Product(name: "Model 8", image: "sweater8", price: 57)]
